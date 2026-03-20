@@ -1,11 +1,12 @@
-<h3>Do Windows ao Linux: As dores de cabeça que todo Dev tem...</h3>
+<h2>Do Windows ao Linux: As dores de cabeça que todo Dev tem...</h2>
 
 <p>Alternar entre plataformas distintas pode gerar desconfortos no momento de uma transição.</p>
 
-<h4>Objetivo</h4>
+<h3>Objetivo</h3>
 <p>Identificar desafios de um Dev PHP para utilizar e configurar o ambiente Linux.</p>
 
-<h4>Labotarório DEBIAN 13 - Super usuário</h4>
+<h3>Labotarório DEBIAN 13</h3> 
+<h4>Super usuário</h4>
 <code>su -</code>
 <h4>Adicionando o usuário atual ao grupo de supers</h4>
 <code>usermod -aG sudo usuario</code></br>
@@ -42,9 +43,9 @@
 <h4>Instalação do PHPMyAdmin:</h4>
 <code>sudo apt install phpmyadmin</code>
 <h4>Durante a instalação:</h4>
-<p>Escolha o servidor web (Apache ou Nginx).</p>
-<p>Configure o banco de dados para phpMyAdmin.</p>
-<p>Defina uma senha para o usuário administrativo.</p>
+<p>- Escolha o servidor web (Apache ou Nginx).</p>
+<p>- Configure o banco de dados para phpMyAdmin.</p>
+<p>- Defina uma senha para o usuário administrativo.</p>
 <h4>Verifique se o link simbólico foi criado:</h4>
 <code>sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin</code>
 <h4>Acesse o navegador:</h4>
